@@ -56,5 +56,5 @@ done
 
 if [ $FAILED -eq 1 ]
 then
-  cat ${project}-test-output.txt
+  cat $output
 fi
